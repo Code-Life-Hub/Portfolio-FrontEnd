@@ -19,7 +19,10 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://portfoliobackend-ldhj.onrender.com/", formData);
+      await axios.post(
+        "https://portfolio-backend-m645.onrender.com/",
+        formData
+      );
       alert("Email sent successfully");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
