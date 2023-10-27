@@ -1,0 +1,126 @@
+@media (min-width: 769px) {
+  .form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  label {
+    text-decoration: underline;
+  }
+
+  .email-form {
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    height: 250px;
+    font-size: 18px;
+  }
+
+  .email-form input {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .email-input {
+    width: 45%;
+  }
+
+  .name-input {
+    width: 40%;
+  }
+
+  .message-input {
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .email-form-send {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0bee13;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: solid black 5px;
+  }
+
+  .email-form-send:hover {
+    background-color: black;
+    color: #0bee13;
+    border: solid #0bee13 1px;
+  }
+
+  .email-send-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+/* ----------MOBILE BEGINS BELOW---------------- */
+
+@media (max-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    border: solid white 1px;
+    width: 90%;
+    height: 250px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  label {
+    text-decoration: underline;
+  }
+
+  .email-form-header {
+    text-align: center;
+  }
+
+  .email-form input {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .email-form-send {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0bee13;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: solid black 5px;
+  }
+
+  .email-form-send:hover {
+    background-color: black;
+    color: #0bee13;
+    border: solid #0bee13 1px;
+  }
+
+  .email-send-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .message-input {
+    height: 100px;
+  }
+}

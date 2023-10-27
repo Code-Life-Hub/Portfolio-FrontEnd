@@ -1,0 +1,642 @@
+@media (min-width: 769px) {
+  body {
+    width: 98%;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+  }
+  .about-container > img:nth-child(2) {
+    border: solid white;
+    width: 30% !important;
+  }
+
+  .intro-P {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 50%;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .navLinks > a {
+    color: white !important;
+    border: none;
+    font-size: xx-large;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .navLinks > a:hover {
+    color: rgb(35, 106, 247) !important;
+  }
+
+  a:active {
+    color: rgb(35, 106, 247) !important;
+  }
+
+  .navLinks {
+    text-align: center;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+
+  .GitHub {
+    margin-right: 10px;
+    width: 60%;
+    box-shadow: black 2px 2px 2px;
+    margin-top: 10px;
+  }
+
+  .GitHub:hover {
+    transform: scale(1.1);
+    border: solid black 3px;
+  }
+
+  .linkedin {
+    margin-right: 10px;
+    width: 30%;
+    border: solid white 2px;
+  }
+
+  .linkedin:hover {
+    transform: scale(1.1);
+    border: solid white 3px;
+  }
+
+  .movies {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .movies > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .movies > a > img {
+    width: 20% !important;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .movies > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+  }
+
+  .RecipeTracker {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .RecipeTracker > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .RecipeTracker > a:nth-child(3) {
+    width: 18% !important;
+  }
+
+  .RecipeTracker > a > img {
+    width: 100% !important;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .RecipeTracker > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .DineDoctor {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .DineDoctor > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .DineDoctor > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .DineDoctor > a:nth-child(3) {
+    width: 45% !important;
+  }
+
+  .DineDoctor > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .Decoder {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .Decoder > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .Decoder > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .Decoder > a:nth-child(3) {
+    width: 45% !important;
+  }
+
+  .Decoder > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .FlashCards {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .FlashCards > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+
+  .FlashCards > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .FlashCards > a:nth-child(3) {
+    width: 45% !important;
+  }
+
+  .FlashCards > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px !important;
+  }
+
+  .about-container,
+  .email-container,
+  .linkedin-container,
+  .github-container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  a {
+    font-size: medium;
+  }
+
+  img {
+    width: 30% !important;
+  }
+
+  .email-link {
+    padding: 0px;
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 30%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .e-mail {
+    margin-right: 10px;
+    background-color: white;
+    padding: 0px;
+    margin-right: 10px;
+    border: solid red 2px;
+  }
+
+  .e-mail:hover {
+    transform: scale(1.1);
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .contact > button:nth-child(5) {
+    width: 30%;
+  }
+
+  .myProjects {
+    font-size: xxx-large;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .movies,
+  .RecipeTracker,
+  .DineDoctor,
+  .Decoder,
+  .FlashCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .movies > p,
+  .RecipeTracker > p,
+  .DineDoctor > p,
+  .Decoder > p,
+  .FlashCards > p {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .movies > a > img,
+  .RecipeTracker > a > img,
+  .DineDoctor > a > img,
+  .Decoder > a > img,
+  .FlashCards > a > img {
+    width: 40%;
+  }
+
+  body {
+    background-image: url("./images/background-IMG.png");
+    color: white;
+    width: 90%;
+    background-size: cover;
+  }
+}
+
+/* MOBILE BEGINS BELOW------------------------------------------------- */
+
+@media (max-width: 768px) {
+  body {
+    color: white;
+    width: 96%;
+    background-image: url("./images/background-IMG.png");
+  }
+
+  .about-container {
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  header-content {
+    display: block;
+  }
+
+  h1 {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+
+  h2 {
+    margin-bottom: auto;
+    margin-top: 0px;
+  }
+
+  .navLinks {
+    text-align: center;
+    border-bottom: solid white 1px;
+    border-top: solid white 1px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+  }
+
+  a:hover {
+    color: rgb(55, 97, 238);
+  }
+
+  img {
+    width: 55%;
+  }
+
+  .intro-P {
+    color: white;
+    font-size: auto;
+    font-weight: bold;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .contact-container > h2:nth-child(1) {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  form > label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .contact > label:nth-child(1) > input:nth-child(1) {
+    width: 40%;
+    margin-left: 5px;
+  }
+
+  .contact > label:nth-child(2) > input:nth-child(1) {
+    width: 45%;
+    margin-left: 5px;
+  }
+
+  .contact > label:nth-child(3) > input:nth-child(1) {
+    width: 50%;
+    margin-left: 5px;
+  }
+
+  textarea {
+    height: 80px;
+    width: 96%;
+  }
+
+  .contact > button:nth-child(5) {
+    background-color: rgb(55, 97, 238);
+    margin-top: 20px;
+    width: 26%;
+    align-self: center;
+    font-style: italic;
+  }
+
+  .contact-intro {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+  }
+  form {
+    display: block;
+    align-items: center;
+  }
+
+  .email-container {
+    text-align: center;
+    width: 98%;
+  }
+
+  .linkedin-container {
+    text-align: center;
+    margin-bottom: 0px;
+    width: 98%;
+  }
+
+  .linkedin-link {
+    display: inline-flex;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border: solid white 2px;
+    background-color: #0077b5;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .linkedin-link:hover {
+    background-color: #005582;
+    transform: scale(1.1);
+  }
+
+  .linkedin {
+    margin-right: 10px;
+    width: 60%;
+    border: solid white 2px;
+  }
+
+  .github-container {
+    text-align: center;
+    width: 98%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .GitHub {
+    margin-right: 10px;
+    width: 60%;
+    box-shadow: black 2px 2px 2px;
+    margin-top: 10px;
+  }
+
+  .GitHub:hover {
+    transform: scale(1.1);
+    border: solid black 3px;
+  }
+
+  .welcome {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .movies {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .movies > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .movies > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .movies > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(35, 106, 247);
+    text-decoration: underline;
+  }
+
+  .RecipeTracker {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .RecipeTracker > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .RecipeTracker > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .RecipeTracker > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .DineDoctor {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .DineDoctor > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .DineDoctor > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .DineDoctor > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .Decoder {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .Decoder > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .Decoder > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .Decoder > a > img:hover {
+    transform: scale(1.1);
+  }
+
+  .FlashCards {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .FlashCards > p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+  }
+
+  .FlashCards > a > img {
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid rgb(35, 106, 247) 1px;
+  }
+
+  .FlashCards > a > img:hover {
+    transform: scale(1.1);
+  }
+}
